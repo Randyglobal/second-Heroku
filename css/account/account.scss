@@ -1,0 +1,24 @@
+@import './reset';
+@import './header';
+@import './section1';
+@import './section2';
+@import './section3';
+@import './section4';
+@import './section5';
+@import './section6';
+@import './section7';
+@import './section8';
+@import './section9';
+@import './footer';
+@media (min-width: 1200px) {
+    @import './large/header';
+    @import './large/section1';
+    @import './large/section2';
+    @import './large/section3';
+    @import './large/section4';
+    @import './large/section5';
+    @import './large/section6';
+    @import './large/section7';
+    @import './large/section8';
+    @import './large/section9';
+}

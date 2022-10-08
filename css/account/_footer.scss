@@ -1,0 +1,78 @@
+footer{
+    background-color: rgba(200, 195, 195, 0.133);
+    display: flex;
+    height: 15vh;
+    padding-top: 7vh;
+    width: 100%;
+    position: absolute;
+    top: 165vh;
+    li{
+        list-style-type: none;
+        margin-left: 30px;
+        a{
+            text-decoration: none;
+            color: grey;
+            font-family: "Product Sans", Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .Leftfoot{
+        display: flex;
+        margin-left: 100px;
+        li{
+            a{
+                font-size: 16px;
+            }
+        }
+        .google1{
+            margin-top: -10px;
+        }
+        .google{
+            font-size: 26px;
+            color: rgba(36, 35, 35, 0.589);
+            font-weight: 550;
+            margin-right: 15px;
+        }
+    }
+    .Rightfoot{
+        margin-left: 450px;
+        font-size: 16px;
+        display: flex;
+        button{
+            width: 20px;
+            height: 20px;
+            border-radius: 100px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .select {
+            display: flex;
+            // border-radius: 5px;
+            // border: 1px solid white;
+            // cursor: pointer;
+            margin-left: 15px;
+            height: 35px;
+    
+        }
+        select{
+            border: none;
+            margin-top: -14px;
+            padding-left: 5px;
+            background-color:  transparent;
+            padding-right: 5px;
+            color: rgb(31, 30, 30);
+            font-size: 16px;
+            option:focus{
+                border: none;
+                color: grey;
+            }
+        }
+        select:focus{
+            border: none;
+            background-color:  rgba(200, 195, 195, 0.133);
+        }
+    }
+}

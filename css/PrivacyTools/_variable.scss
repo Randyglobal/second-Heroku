@@ -1,0 +1,117 @@
+*{
+    margin: auto 20px;
+}
+    section{
+    .PrivacyTool{
+        width: 100%;
+        height: 90vh;
+        .tool{
+            padding-top: 10%;
+            margin-left: 35%;
+           img{
+            width: 225px;
+            height: 130px;
+           }
+        }
+        .toolAbout{
+            width: 80%;
+            margin-left: 10%;
+            text-align: center;
+            .para{
+                font-size: 30px;
+                color: #202124;
+                padding-top: 3.5%;
+                line-height: 40px;
+                span{
+                    border-bottom: 1px solid  #174ea6;
+                    margin: 0 -20px;
+
+                    a{
+                        color: #174ea6;
+                        text-decoration: none
+                    }
+                }  
+            }
+            .About{
+                width: 68%;
+                margin-left: 15.5%;
+                padding-top: 3.5%;
+                font-size: 16px;
+                line-height: 26px;
+                span{
+                    margin: 0 -20px;
+                    a:hover{
+                        color: #174ea6;
+                    } 
+                }
+            }
+        }
+    }
+    .container{
+        width: 92%;
+        margin: 4.5%;
+        display: flex;
+        margin-top: -50px;
+        .Search, .YouTube{
+            width: 62%;
+            height: 40vh;
+            border: 1px solid rgba(0, 0, 0, 0.176);
+            border-radius: 10px;
+            padding-left: 50px;
+            h3{
+                font-size: 25px;
+                color: #202124;
+                padding-top: 50px;
+            }
+            p{
+                line-height: 26px;
+                padding-top: 25px;
+                width: 85%;
+                margin-bottom: 30px;
+            }
+            a{
+                text-decoration: none;
+                border-bottom: 1px solid;
+            }
+            a:hover{
+                color: #174ea6;
+            }
+            
+        }
+        .lev{
+            margin-top: 25%;
+        }
+   }
+    .content{
+        width: 92%;
+        margin: 4.5%;
+        display: flex;
+        margin-top: -15px;
+        .Ad, .Option{
+            width: 62%;
+            height: 40vh;
+            border: 1px solid rgba(0, 0, 0, 0.176);
+            border-radius: 10px;
+            padding-left: 50px;
+            h3{
+                font-size: 25px;
+                color: #202124;
+                padding-top: 50px;
+            }
+            p{
+                line-height: 26px;
+                padding-top: 25px;
+                width: 80%;
+                margin-bottom: 30px;
+            }
+            a{
+                text-decoration: none;
+                border-bottom: 1px solid;
+                color: #1d65d9;
+            }
+            a:hover{
+                color: #174ea6;
+            }  
+        } 
+    }
+}

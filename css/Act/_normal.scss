@@ -1,0 +1,120 @@
+@media (max-width: 992px) {
+    /* Start of work */
+.wrapContainer {
+    @include wrapStyle (448px, 500px, white);
+    border: $container_border;
+
+    /* Start of form */
+    .google {
+        width: 320px;
+        height: 160px;
+        padding-left: 10px;
+        margin:15px auto 0px 50px ;
+        // background: red;
+
+        /* img */
+        img {
+            @include imgStyle;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 4px;
+            font-weight: 100;
+            color: $h2_color;
+        }
+
+        h2 {
+            font-size: 17px;
+            width: 400px;
+            margin-top: 10px;
+            margin-left: -40px;
+            font-weight: 100;
+            color: $h2_color;
+        }
+    }
+
+    .selector {
+        width: 80px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 330px;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 4px;
+        background-color: $form-label_background-color;
+        // font-family: Roboto,sans-serif
+    }
+
+    .selector a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            background-color: #1E88E5;
+        }
+    }
+
+    /* End of form */
+
+
+    .navigateBar {
+        width: 110%;
+        height: 30px;
+        // background: blue;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 250px;
+        // margin-left: 10px;
+        // position: relative;
+
+        ul,
+        li,
+        a {
+            list-style: none;
+            text-decoration: none;
+            display: inline;
+            padding-left: 13px;
+            font-size: 12px;
+            padding-top: 15px;
+            color: $text_color;
+            // background: red;
+
+        }
+
+        select {
+            border: 1px solid $container_background;
+            outline: none;
+            margin-left: 10px;
+            width: 13px;
+            background: $container_background;
+            cursor: pointer;
+        }
+
+        .select {
+            background: white;
+            width: 40%;
+            height: 45px;
+            display: flex;
+            border-radius: 5px;
+            border: 1px solid white;
+            cursor: pointer;
+
+            .select:hover {
+                background: $text_color;
+            }
+
+            p {
+                margin-top: 13px;
+                padding-left: 5px;
+                font-size: 13px;
+                color: $text_color;
+            }
+        }
+
+        .select:hover {
+            background: rgba(128, 128, 128, 0.089);
+        }
+    }
+}
+}

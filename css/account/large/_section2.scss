@@ -1,0 +1,79 @@
+.mainBar{
+    width: 100%;
+    height: 48vh;
+    margin-top: 3px;
+    display: flex;
+    h2, .colorDiv, .colorDi, .colorD, p{
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    p{
+        line-height: 25px;
+    }
+
+    h2{
+        font-size: 25px;
+        color: $text_color;
+        font-weight: 400;
+        margin-top: 70px;
+    }
+
+    .helpYou{
+        width: 33.34%;
+        height: 48vh;
+        border: $container_border;
+        background: rgba(208, 208, 208, 0.201);
+        color: $text_color;
+
+        .colorDiv{
+            width: 35px;
+            height: 5px;
+            background: $h6_color;
+        }
+    }
+
+    .buildYou{
+        width: 33.34%;
+        height: 48vh;
+        border: $container_border;
+        background: rgba(208, 208, 208, 0.201);
+        color: $text_color;
+
+
+        .colorDi{
+            width: 35px;
+            height: 5px;
+            background: yellow
+        }
+    }
+    .protectYou{
+        width: 33.34%;
+        height: 48vh;
+        border: $container_border;
+        background: rgba(208, 208, 208, 0.201);
+        color: $text_color; 
+
+
+        .colorD{
+            width: 35px;
+            height: 5px;
+            background: green;
+        }
+        .arrowDown{
+            width: 60px;
+            height: 60px;
+           background: $h6_color;
+            border-radius: 40px;
+            margin-top: -255px;
+            margin-left: 360px;
+            box-shadow: 3px 0px  solid rgba(0, 0, 255, 0.216);
+
+        }
+        i{
+            color: white;
+            margin-top: 18px;
+            margin-left: 16px;
+            font-size: 27px;
+        }
+    }
+}

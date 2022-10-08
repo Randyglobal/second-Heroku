@@ -1,0 +1,1185 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  box-sizing: inherit;
+}
+
+/* custom properties */
+/* Start of work */
+.container {
+  width: 448px;
+  height: 560px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  background: white;
+  border: 1px solid #bfbfbf;
+  /* Start of form */
+  /* End of form */
+}
+.container .google {
+  width: 300px;
+  height: 150px;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-left: 60px;
+  /* img */
+}
+.container .google img {
+  width: 95px;
+  height: 38px;
+  margin: auto;
+  padding-top: 20px;
+}
+.container h1 {
+  font-size: 24px;
+  margin-top: 4px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.822);
+}
+.container a {
+  text-decoration: none;
+  color: #393939;
+}
+.container a .profileLogin {
+  width: 225px;
+  height: 20px;
+  border: 1px solid #bfbfbf;
+  display: flex;
+  padding-left: 10px;
+  padding-top: 7px;
+  font-size: 14px;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.container a .profileLogin i {
+  position: absolute;
+  margin-left: 200px;
+  font-size: 12px;
+}
+.container a .profileLogin span {
+  margin-left: 7px;
+  margin-top: -3px;
+}
+.container a .profileLogin .profilePic {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #bfbfbf;
+  border-radius: 30px;
+  margin-left: -2px;
+  margin-top: -3px;
+  background-image: url(/image/download.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container a .profileLogin:hover {
+  background: rgba(167, 167, 167, 0.105);
+}
+.container .bannerDiv {
+  width: 100%;
+  height: 60px;
+  margin-top: 100px;
+  background: linear-gradient(rgba(202, 202, 202, 0.358), white);
+}
+.container .bannerDiv .mobileDiv {
+  position: absolute;
+  width: 75px;
+  height: 125px;
+  margin-top: -80px;
+  margin-left: 40px;
+}
+.container .bannerDiv .mobileDiv img {
+  width: 180px;
+  height: 150px;
+  margin-left: -80px;
+  margin-top: -20px;
+}
+.container .infoDiv {
+  width: 85%;
+  height: 60px;
+  margin-left: 40px;
+  text-align: justify;
+}
+.container .infoDiv h4, .container .infoDiv p {
+  font-size: 14px;
+}
+.container .infoDiv p {
+  margin-top: 15px;
+}
+.container .form button a {
+  text-decoration: none;
+}
+.container .form button {
+  margin-top: 40px;
+  margin-left: -300px;
+  padding: 10px;
+  border: white;
+  border-radius: 1px;
+  font-size: 15px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #027cff;
+}
+.container .form button :hover {
+  background-color: #E1F5FE;
+  cursor: pointer;
+}
+.container .info {
+  width: 85%;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.container .info span p {
+  text-align: justify;
+}
+.container .dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.container #myUse {
+  padding-top: 30px;
+}
+.container .dropbtn:hover,
+.container .dropbtn:focus {
+  background-color: rgba(54, 144, 204, 0.1019607843);
+  color: rgba(3, 71, 116, 0.9333333333);
+  border-radius: 2px;
+}
+.container .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.container .dropdown #button {
+  margin-left: -230px;
+}
+.container .dropdown a:hover {
+  background-color: #ddd;
+}
+.container .show {
+  display: block;
+}
+.container .selector {
+  width: 70px;
+  height: 30px;
+  margin-top: -40px;
+  margin-left: 340px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 4px;
+  background-color: #007dea;
+}
+.container .selector a {
+  text-decoration: none;
+  color: white;
+}
+.container .selector :hover {
+  background-color: #0082f5;
+}
+.container .languageBar {
+  width: 106%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-left: -5px;
+}
+.container .languageBar ul,
+.container .languageBar li,
+.container .languageBar a {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  padding-left: 13px;
+  font-size: 12px;
+  padding-top: 15px;
+  color: #393939;
+}
+.container .languageBar #help {
+  margin-left: -80px;
+}
+.container .languageBar select {
+  border: 1px solid transparent;
+  outline: none;
+  margin-left: 10px;
+  width: 13px;
+  background: transparent;
+  cursor: pointer;
+}
+.container .languageBar .select {
+  background: white;
+  width: 40%;
+  height: 45px;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.container .languageBar .select .select:hover {
+  background: #393939;
+}
+.container .languageBar .select p {
+  margin-top: 13px;
+  padding-left: 5px;
+  font-size: 13px;
+  color: #393939;
+}
+.container .languageBar .select:hover {
+  background: rgba(128, 128, 128, 0.089);
+}
+
+@media (min-width: 1200px) {
+  /* Start of work */
+  .container {
+    width: 448px;
+    height: 560px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    background: white;
+    border: 1px solid #bfbfbf;
+    /* Start of form */
+    /* End of form */
+  }
+  .container .google {
+    width: 300px;
+    height: 150px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    /* img */
+  }
+  .container .google img {
+    width: 95px;
+    height: 38px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .container h1 {
+    font-size: 24px;
+    margin-top: 4px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.822);
+  }
+  .container a {
+    text-decoration: none;
+    color: #393939;
+  }
+  .container a .profileLogin {
+    width: 225px;
+    height: 20px;
+    border: 1px solid #bfbfbf;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  .container a .profileLogin i {
+    position: absolute;
+    margin-left: 200px;
+    font-size: 12px;
+  }
+  .container a .profileLogin span {
+    margin-left: 7px;
+    margin-top: -3px;
+  }
+  .container a .profileLogin .profilePic {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    margin-left: -2px;
+    margin-top: -3px;
+    background-image: url(/image/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container a .profileLogin:hover {
+    background: rgba(167, 167, 167, 0.105);
+  }
+  .container .bannerDiv {
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    background: linear-gradient(rgba(202, 202, 202, 0.358), white);
+  }
+  .container .bannerDiv .mobileDiv {
+    position: absolute;
+    width: 75px;
+    height: 125px;
+    margin-top: -80px;
+    margin-left: 40px;
+  }
+  .container .bannerDiv .mobileDiv img {
+    width: 180px;
+    height: 150px;
+    margin-left: -80px;
+    margin-top: -20px;
+  }
+  .container .infoDiv {
+    width: 85%;
+    height: 60px;
+    margin-left: 40px;
+    text-align: justify;
+  }
+  .container .infoDiv h4, .container .infoDiv p {
+    font-size: 14px;
+  }
+  .container .infoDiv p {
+    margin-top: 15px;
+  }
+  .container .form button a {
+    text-decoration: none;
+  }
+  .container .form button {
+    margin-top: 40px;
+    margin-left: -300px;
+    padding: 10px;
+    border: white;
+    border-radius: 1px;
+    font-size: 15px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #027cff;
+  }
+  .container .form button :hover {
+    background-color: #E1F5FE;
+    cursor: pointer;
+  }
+  .container .info {
+    width: 85%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .container .info span p {
+    text-align: justify;
+  }
+  .container .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .container #myUse {
+    padding-top: 30px;
+  }
+  .container .dropbtn:hover,
+.container .dropbtn:focus {
+    background-color: rgba(54, 144, 204, 0.1019607843);
+    color: rgba(3, 71, 116, 0.9333333333);
+    border-radius: 2px;
+  }
+  .container .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .container .dropdown #button {
+    margin-left: -230px;
+  }
+  .container .dropdown a:hover {
+    background-color: #ddd;
+  }
+  .container .show {
+    display: block;
+  }
+  .container .selector {
+    width: 70px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 340px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color: #007dea;
+  }
+  .container .selector a {
+    text-decoration: none;
+    color: white;
+  }
+  .container .selector :hover {
+    background-color: #0082f5;
+  }
+  .container .languageBar {
+    width: 106%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-left: -5px;
+  }
+  .container .languageBar ul,
+.container .languageBar li,
+.container .languageBar a {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding-left: 13px;
+    font-size: 12px;
+    padding-top: 15px;
+    color: #393939;
+  }
+  .container .languageBar #help {
+    margin-left: -80px;
+  }
+  .container .languageBar select {
+    border: 1px solid transparent;
+    outline: none;
+    margin-left: 10px;
+    width: 13px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .container .languageBar .select {
+    background: white;
+    width: 40%;
+    height: 45px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  .container .languageBar .select .select:hover {
+    background: #393939;
+  }
+  .container .languageBar .select p {
+    margin-top: 13px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #393939;
+  }
+  .container .languageBar .select:hover {
+    background: rgba(128, 128, 128, 0.089);
+  }
+}
+@media (max-width: 992px) {
+  /* Start of work */
+  .container {
+    width: 448px;
+    height: 560px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    background: white;
+    border: 1px solid #bfbfbf;
+    /* Start of form */
+    /* End of form */
+  }
+  .container .google {
+    width: 300px;
+    height: 150px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    /* img */
+  }
+  .container .google img {
+    width: 95px;
+    height: 38px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .container h1 {
+    font-size: 24px;
+    margin-top: 4px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.822);
+  }
+  .container a {
+    text-decoration: none;
+    color: #393939;
+  }
+  .container a .profileLogin {
+    width: 225px;
+    height: 20px;
+    border: 1px solid #bfbfbf;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  .container a .profileLogin i {
+    position: absolute;
+    margin-left: 200px;
+    font-size: 12px;
+  }
+  .container a .profileLogin span {
+    margin-left: 7px;
+    margin-top: -3px;
+  }
+  .container a .profileLogin .profilePic {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    margin-left: -2px;
+    margin-top: -3px;
+    background-image: url(/image/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container a .profileLogin:hover {
+    background: rgba(167, 167, 167, 0.105);
+  }
+  .container .bannerDiv {
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    background: linear-gradient(rgba(202, 202, 202, 0.358), white);
+  }
+  .container .bannerDiv .mobileDiv {
+    position: absolute;
+    width: 75px;
+    height: 125px;
+    margin-top: -80px;
+    margin-left: 40px;
+  }
+  .container .bannerDiv .mobileDiv img {
+    width: 180px;
+    height: 150px;
+    margin-left: -80px;
+    margin-top: -20px;
+  }
+  .container .infoDiv {
+    width: 85%;
+    height: 60px;
+    margin-left: 40px;
+    text-align: justify;
+  }
+  .container .infoDiv h4, .container .infoDiv p {
+    font-size: 14px;
+  }
+  .container .infoDiv p {
+    margin-top: 15px;
+  }
+  .container .form button a {
+    text-decoration: none;
+  }
+  .container .form button {
+    margin-top: 40px;
+    margin-left: -300px;
+    padding: 10px;
+    border: white;
+    border-radius: 1px;
+    font-size: 15px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #027cff;
+  }
+  .container .form button :hover {
+    background-color: #E1F5FE;
+    cursor: pointer;
+  }
+  .container .info {
+    width: 85%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .container .info span p {
+    text-align: justify;
+  }
+  .container .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .container #myUse {
+    padding-top: 30px;
+  }
+  .container .dropbtn:hover,
+.container .dropbtn:focus {
+    background-color: rgba(54, 144, 204, 0.1019607843);
+    color: rgba(3, 71, 116, 0.9333333333);
+    border-radius: 2px;
+  }
+  .container .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .container .dropdown #button {
+    margin-left: -230px;
+  }
+  .container .dropdown a:hover {
+    background-color: #ddd;
+  }
+  .container .show {
+    display: block;
+  }
+  .container .selector {
+    width: 70px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 340px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color: #007dea;
+  }
+  .container .selector a {
+    text-decoration: none;
+    color: white;
+  }
+  .container .selector :hover {
+    background-color: #0082f5;
+  }
+  .container .languageBar {
+    width: 106%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-left: -5px;
+  }
+  .container .languageBar ul,
+.container .languageBar li,
+.container .languageBar a {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding-left: 13px;
+    font-size: 12px;
+    padding-top: 15px;
+    color: #393939;
+  }
+  .container .languageBar #help {
+    margin-left: -80px;
+  }
+  .container .languageBar select {
+    border: 1px solid transparent;
+    outline: none;
+    margin-left: 10px;
+    width: 13px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .container .languageBar .select {
+    background: white;
+    width: 40%;
+    height: 45px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  .container .languageBar .select .select:hover {
+    background: #393939;
+  }
+  .container .languageBar .select p {
+    margin-top: 13px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #393939;
+  }
+  .container .languageBar .select:hover {
+    background: rgba(128, 128, 128, 0.089);
+  }
+}
+@media (max-width: 786px) {
+  /* Start of work */
+  .container {
+    width: 448px;
+    height: 560px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    background: white;
+    border: 1px solid #bfbfbf;
+    /* Start of form */
+    /* End of form */
+  }
+  .container .google {
+    width: 300px;
+    height: 150px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    /* img */
+  }
+  .container .google img {
+    width: 95px;
+    height: 38px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .container h1 {
+    font-size: 24px;
+    margin-top: 4px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.822);
+  }
+  .container a {
+    text-decoration: none;
+    color: #393939;
+  }
+  .container a .profileLogin {
+    width: 225px;
+    height: 20px;
+    border: 1px solid #bfbfbf;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  .container a .profileLogin i {
+    position: absolute;
+    margin-left: 200px;
+    font-size: 12px;
+  }
+  .container a .profileLogin span {
+    margin-left: 7px;
+    margin-top: -3px;
+  }
+  .container a .profileLogin .profilePic {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    margin-left: -2px;
+    margin-top: -3px;
+    background-image: url(/image/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container a .profileLogin:hover {
+    background: rgba(167, 167, 167, 0.105);
+  }
+  .container .bannerDiv {
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    background: linear-gradient(rgba(202, 202, 202, 0.358), white);
+  }
+  .container .bannerDiv .mobileDiv {
+    position: absolute;
+    width: 75px;
+    height: 125px;
+    margin-top: -80px;
+    margin-left: 40px;
+  }
+  .container .bannerDiv .mobileDiv img {
+    width: 180px;
+    height: 150px;
+    margin-left: -80px;
+    margin-top: -20px;
+  }
+  .container .infoDiv {
+    width: 85%;
+    height: 60px;
+    margin-left: 40px;
+    text-align: justify;
+  }
+  .container .infoDiv h4, .container .infoDiv p {
+    font-size: 14px;
+  }
+  .container .infoDiv p {
+    margin-top: 15px;
+  }
+  .container .form button a {
+    text-decoration: none;
+  }
+  .container .form button {
+    margin-top: 40px;
+    margin-left: -300px;
+    padding: 10px;
+    border: white;
+    border-radius: 1px;
+    font-size: 15px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #027cff;
+  }
+  .container .form button :hover {
+    background-color: #E1F5FE;
+    cursor: pointer;
+  }
+  .container .info {
+    width: 85%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .container .info span p {
+    text-align: justify;
+  }
+  .container .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .container #myUse {
+    padding-top: 30px;
+  }
+  .container .dropbtn:hover,
+.container .dropbtn:focus {
+    background-color: rgba(54, 144, 204, 0.1019607843);
+    color: rgba(3, 71, 116, 0.9333333333);
+    border-radius: 2px;
+  }
+  .container .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .container .dropdown #button {
+    margin-left: -230px;
+  }
+  .container .dropdown a:hover {
+    background-color: #ddd;
+  }
+  .container .show {
+    display: block;
+  }
+  .container .selector {
+    width: 70px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 340px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color: #007dea;
+  }
+  .container .selector a {
+    text-decoration: none;
+    color: white;
+  }
+  .container .selector :hover {
+    background-color: #0082f5;
+  }
+  .container .languageBar {
+    width: 106%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-left: -5px;
+  }
+  .container .languageBar ul,
+.container .languageBar li,
+.container .languageBar a {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding-left: 13px;
+    font-size: 12px;
+    padding-top: 15px;
+    color: #393939;
+  }
+  .container .languageBar #help {
+    margin-left: -80px;
+  }
+  .container .languageBar select {
+    border: 1px solid transparent;
+    outline: none;
+    margin-left: 10px;
+    width: 13px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .container .languageBar .select {
+    background: white;
+    width: 40%;
+    height: 45px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  .container .languageBar .select .select:hover {
+    background: #393939;
+  }
+  .container .languageBar .select p {
+    margin-top: 13px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #393939;
+  }
+  .container .languageBar .select:hover {
+    background: rgba(128, 128, 128, 0.089);
+  }
+}
+@media (max-width: 576px) {
+  /* Start of work */
+  .container {
+    width: 90%;
+    height: 560px;
+    margin-top: 10px;
+    margin-left: -3px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    background: white;
+    border: 1px solid white;
+    /* Start of form */
+    /* End of form */
+  }
+  .container .google {
+    width: 300px;
+    height: 150px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 90px;
+    /* img */
+  }
+  .container .google img {
+    width: 95px;
+    height: 38px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .container h1 {
+    font-size: 24px;
+    margin-top: 4px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.822);
+  }
+  .container a {
+    text-decoration: none;
+    color: #393939;
+  }
+  .container a .profileLogin {
+    width: 225px;
+    height: 20px;
+    border: 1px solid #bfbfbf;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  .container a .profileLogin i {
+    position: absolute;
+    margin-left: 200px;
+    font-size: 12px;
+  }
+  .container a .profileLogin span {
+    margin-left: 7px;
+    margin-top: -3px;
+  }
+  .container a .profileLogin .profilePic {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    margin-left: -2px;
+    margin-top: -3px;
+    background-image: url(/image/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container a .profileLogin:hover {
+    background: rgba(167, 167, 167, 0.105);
+  }
+  .container .bannerDiv {
+    width: 100%;
+    height: 70px;
+    margin-top: 120px;
+    background: linear-gradient(rgba(202, 202, 202, 0.358), white);
+  }
+  .container .bannerDiv .mobileDiv {
+    position: absolute;
+    width: 75px;
+    height: 125px;
+    margin-top: -80px;
+    margin-left: 40px;
+  }
+  .container .bannerDiv .mobileDiv img {
+    width: 180px;
+    height: 150px;
+    margin-left: -80px;
+    margin-top: -20px;
+  }
+  .container .infoDiv {
+    width: 100%;
+    height: 60px;
+    margin-left: 40px;
+    text-align: justify;
+  }
+  .container .infoDiv h4, .container .infoDiv p {
+    font-size: 14px;
+  }
+  .container .infoDiv p {
+    margin-top: 15px;
+  }
+  .container .form button a {
+    text-decoration: none;
+  }
+  .container .form button {
+    margin-top: 40px;
+    margin-left: -300px;
+    padding: 10px;
+    border: white;
+    border-radius: 1px;
+    font-size: 15px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #027cff;
+  }
+  .container .form button :hover {
+    background-color: #E1F5FE;
+    cursor: pointer;
+  }
+  .container .info {
+    width: 85%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .container .info span p {
+    text-align: justify;
+  }
+  .container .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .container #myUse {
+    padding-top: 30px;
+  }
+  .container .dropbtn:hover,
+.container .dropbtn:focus {
+    background-color: rgba(54, 144, 204, 0.1019607843);
+    color: rgba(3, 71, 116, 0.9333333333);
+    border-radius: 2px;
+  }
+  .container .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .container .dropdown #button {
+    margin-left: -240px;
+    margin-top: 20px;
+  }
+  .container .dropdown a:hover {
+    background-color: #ddd;
+  }
+  .container .show {
+    display: block;
+  }
+  .container .selector {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    margin-top: -35px;
+    margin-left: 390px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 4px;
+    background-color: #007dea;
+  }
+  .container .selector a {
+    text-decoration: none;
+    color: white;
+  }
+  .container .selector :hover {
+    background-color: #0082f5;
+  }
+  .container .languageBar {
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-left: 40px;
+  }
+  .container .languageBar ul,
+.container .languageBar li,
+.container .languageBar a {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding-left: 13px;
+    font-size: 12px;
+    padding-top: 15px;
+    color: #393939;
+  }
+  .container .languageBar #help {
+    margin-left: -80px;
+  }
+  .container .languageBar select {
+    border: 1px solid transparent;
+    outline: none;
+    margin-left: 10px;
+    width: 13px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .container .languageBar .select {
+    background: white;
+    width: 40%;
+    height: 45px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  .container .languageBar .select .select:hover {
+    background: #393939;
+  }
+  .container .languageBar .select p {
+    margin-top: 13px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #393939;
+  }
+  .container .languageBar .select:hover {
+    background: rgba(128, 128, 128, 0.089);
+  }
+}/*# sourceMappingURL=style.css.map */

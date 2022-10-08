@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  box-sizing: inherit;
+  list-style-type: none;
+}
+
+/* custom properties */
+.container {
+  width: 84%;
+  margin-left: 10%;
+  margin-top: 10px;
+  background: red;
+}
+.container .content {
+  width: 56%;
+  height: 80vh;
+  margin-left: 20%;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+}
+.container .content .creation {
+  display: flex;
+  height: 110vh;
+  background: yellow;
+}
+.container .content .creation .left {
+  width: 60%;
+  height: 705px;
+  padding-left: 15px;
+}
+.container .content .creation .left .google {
+  width: 90%;
+  height: 120px;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.container .content .creation .left .google img {
+  width: 100px;
+  height: 40px;
+  padding-left: 5px;
+  margin: auto;
+  padding-top: 20px;
+}
+.container .content .creation .left .google h3 {
+  font-size: 20px;
+  padding-left: 17px;
+}
+.container .content .creation .left .google p {
+  font-size: 17px;
+  margin-left: 17px;
+  margin-top: 10px;
+}
+.container .content .creation .left .inputs2 {
+  padding-left: 27px;
+  display: flex;
+  margin-top: 35px;
+}
+.container .content .creation .left .inputs2 .day, .container .content .creation .left .inputs2 .month, .container .content .creation .left .inputs2 .year {
+  width: 24%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  outline: none;
+  padding-left: 7px;
+}
+.container .content .creation .left .inputs2 .month, .container .content .creation .left .inputs2 .year {
+  margin-left: 10px;
+}
+.container .content .creation .left p {
+  font-size: 13.5px;
+  margin-left: 32px;
+  padding-top: 5px;
+}
+.container .content .creation .left .inputs3 input {
+  padding-left: 7px;
+  width: 78%;
+  height: 30px;
+  margin-left: 22px;
+  margin-top: 35px;
+  font-size: 14.5px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  outline: none;
+}
+.container .content .creation .left .information {
+  margin-top: 45px;
+  margin-left: 22px;
+}
+.container .content .creation .left .information a {
+  color: #1811e7;
+  text-decoration: none;
+  font-size: 14.5px;
+}
+.container .content .creation .left .information button {
+  background-color: #1b14d1;
+  width: 80px;
+  height: 35px;
+  border: 0;
+  border-radius: 3px;
+  color: antiquewhite;
+  margin-left: 270px;
+  margin-top: 45px;
+  font-size: 14.5px;
+}
+.container .content .creation .left .information .back {
+  margin-top: -25px;
+}
+.container .content .creation .right {
+  width: 40%;
+  height: 705px;
+  padding-top: 100px;
+}
+.container .content .creation .right p {
+  text-align: center;
+}
+.container .language {
+  margin-top: -180px;
+  width: 100%;
+  background: blue;
+}
+.container .language ul {
+  width: 94%;
+  color: rgba(56, 54, 54, 0.825);
+  display: flex;
+}
+.container .language ul #lang1 {
+  margin-right: 250px;
+}
+.container .language ul a {
+  text-decoration: none;
+}
+.container .language ul #help1, .container .language ul #help2 {
+  margin-right: 50px;
+}/*# sourceMappingURL=BasicInfo.css.map */

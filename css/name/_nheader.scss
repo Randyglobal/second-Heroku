@@ -1,0 +1,169 @@
+/* form */
+.Wrapper {
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    border: $container_border;
+
+    .google {
+        width: 300px;
+        height: 180px;
+        padding-left: 10px;
+        margin-top: 30px;
+        margin-left: 70px;
+
+        img {
+            width: 95px;
+            height: 40px;
+            padding-left: 10px;
+            margin: auto;
+            padding-top: 20px;
+        }
+    }
+
+    .google p {
+        font-size: 24px;
+    }
+
+    .google span {
+        font-size: 16px;
+    }
+
+    /* first input */
+    #text1 {
+        margin-top: -40px;
+    }
+
+    .form-text {
+        width: 325px;
+        padding: 20px;
+        // margin-top: 0px;
+        margin-left: auto;
+        outline: none;
+        place-content: center;
+        border-radius: 4px;
+        // transition: .15s;
+        background: $container_background;
+        border: $container_border;
+
+        &:focus {
+            outline: none;
+            border: 2px solid $form-label_background-color;
+        }
+    }
+
+    .form-label {
+        position: relative;
+        color: gray;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: calc(100% - 2*8px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 0 8px;
+        top: -35px;
+        left: -120px;
+        transition: .15s;
+    }
+
+    .form-text.active .form-label,
+    .form-text:focus + .form-label,
+    .form-text.active + .label {
+        color: $form-label_background-color;
+        top: -70px;
+        left: -140px;
+        background: #fff;
+        font-size: 13px;
+    }
+
+    /* End of Input */
+    .selector {
+        width: 80px;
+        height: 30px;
+        margin-top: 40px;
+        margin-left: 340px;
+        background-color: $form-label_background-color;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 4px;
+
+    }
+
+    .selector a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .selector :hover {
+        background-color: $form-label_background-color;
+    }
+
+    /* start of list */
+    .Bar {
+        width: 100%;
+        height: 30px;
+        // background: blue;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 90px;
+        // margin-left: 10px;
+        // position: relative;
+
+        ul,
+        li,
+        a {
+            list-style: none;
+            text-decoration: none;
+            display: inline;
+            padding-left: 13px;
+            font-size: 12px;
+            padding-top: 15px;
+            color: $text_color;
+            // background: red;
+
+        }
+
+        select {
+            border: 1px solid $container_background;
+            outline: none;
+            margin-left: 5px;
+            margin-top: 5px;
+            width: 13px;
+            background: $container_background;
+            cursor: pointer;
+        }
+
+        .Selecttor {
+            background: white;
+            width: 40%;
+            height: 39px;
+            display: flex;
+            border-radius: 5px;
+            border: 1px solid white;
+            cursor: pointer;
+
+            .select:hover {
+                background: $text_color;
+            }
+
+            p {
+                margin-top: 13px;
+                padding-left: 3px;
+                font-size: 13px;
+                color: $text_color;
+            }
+        }
+
+        .Selecttor:hover {
+            background: rgba(128, 128, 128, 0.089);
+        }
+
+    }
+
+    /*End of list */
+}

@@ -1,0 +1,166 @@
+// p {
+//     @include pElement;
+// }
+
+/* Start of work */
+.contain {
+    @include containerStyle (448px, 560px, white);
+    border: $container_border;
+
+    /* Start of form */
+    .google {
+        @include googleForm(350px, 150px);
+        // background: red;
+
+        /* img */
+        img {
+            @include imgStyle;
+        }
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 4px;
+        font-weight: 100;
+        color: $h2_color;
+        font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: 200;
+        color: $h2_color;
+        font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+    }
+
+    .registerTools {
+        width: 350px;
+        height: 220px;
+        background: red;
+        display: flex;
+        margin-left: 40px;
+
+        .iconBar {
+            width: 10%;
+            height: 220px;
+            background: blue;
+
+            .wrapIcon{
+                width: 20px;
+                height: 20px;
+                background: yellow;
+                border: $container_background;
+                border-radius: 100px;
+                // margin-top: ;
+
+                i{
+                    font-size: 17px;
+                    margin-top: 2px;
+                }
+            }
+        }
+
+        .iconInfo {
+            width: 90%;
+            height: 220px;
+            background: pink;
+        }
+    }
+
+    .form button a {
+        text-decoration: none;
+        color: $hover_color;
+    }
+
+    .dropbtn {
+        margin-top: 20px;
+        padding: 10px;
+        border: white;
+        border-radius: 5px;
+        color: $hover_color;
+        font-size: 15px;
+        padding-left: 10px;
+        background: white
+    }
+
+    .dropbtn:hover {
+        background-color: $h6_color;
+        cursor: pointer;
+    }
+
+}
+
+.selector {
+    @include selectElement (-40px, 330px);
+    background-color: $form-label_background-color;
+}
+
+.selector a {
+    text-decoration: none;
+    color: white;
+}
+
+/* End of form */
+.selector :hover {
+    background-color: #1E88E5;
+}
+
+.languageBar {
+    width: 106%;
+    height: 30px;
+    // background: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 350px;
+    // margin-left: 10px;
+    // position: relative;
+
+    ul,
+    li,
+    a {
+        list-style: none;
+        text-decoration: none;
+        display: inline;
+        padding-left: 13px;
+        font-size: 12px;
+        padding-top: 15px;
+        color: $text_color;
+        // background: red;
+
+    }
+
+    select {
+        border: 1px solid $container_background;
+        outline: none;
+        margin-left: 35px;
+        width: 13px;
+        background: $container_background;
+        cursor: pointer;
+    }
+
+    .select {
+        background: white;
+        width: 40%;
+        height: 45px;
+        display: flex;
+        border-radius: 5px;
+        border: 1px solid white;
+        cursor: pointer;
+
+        .select:hover {
+            background: $text_color;
+        }
+
+        p {
+            margin-top: 13px;
+            padding-left: 5px;
+            font-size: 13px;
+            color: $text_color;
+        }
+    }
+
+    .select:hover {
+        background: rgba(128, 128, 128, 0.089);
+    }
+}

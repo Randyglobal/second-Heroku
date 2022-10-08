@@ -1,0 +1,84 @@
+@import './reset';
+@mixin containerStyle ($width, $height, $background) {
+    width: $width;
+    height: $height;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    background: $background;
+    position: relative;
+}
+
+@mixin googleForm ($width, $height) {
+    width: $width;
+    height: $height;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+@mixin textStyle ($margin-left) {
+    width: 325px;
+    padding: 20px;
+    margin-top: -25px;
+    margin-left: $margin-left;
+    outline: none;
+    place-content: center;
+    border-radius: 4px;
+}
+
+@mixin lableStyle ($transform) {
+    position: absolute;
+    top: 315px;
+    left: 29rem;
+    transform: $transform;
+}
+
+@mixin formDeco ($top) {
+    top: $top;
+    color: $h6_color;
+    background: white;
+    font-size: 11px;
+}
+
+@mixin selectElement ($margin-top, $margin-left) {
+    width: 80px;
+    height: 30px;
+    margin-top: $margin-top;
+    margin-left: $margin-left;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+
+@mixin languageStyle {
+    width: 470px;
+    // padding: 10px;
+    margin-left: -10px;
+    margin-top: 80px;
+    display: flex;
+}
+
+@mixin imgStyle {
+    width: 100px;
+    height: 40px;
+    margin-left: -10px;
+    padding-top: 20px;
+}
+
+@mixin lableElement {
+    content: "Email or Phone";
+    position: absolute;
+    top: -275px;
+    left: -420px;
+    background: white;
+    font-size: 18px;
+    z-index: -1;
+    padding: 0 10px;
+    box-sizing: border-box;
+    transition: 0.1s ease;
+    color: $language_color;
+}
+@import './header';

@@ -1,0 +1,24 @@
+@import"https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap";
+// @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Eczar:wght@600&family=Fraunces:opsz,wght@9..144,600&family=Noto+Sans:wght@200&family=Roboto:ital,wght@1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    box-sizing: inherit;
+}
+
+/* custom properties */
+$container_border: 1px solid #bfbfbf;
+$form-label_background-color: #1E88E5;
+$h6_color: #027cff;
+$language_color: rgba(56, 54, 54, 0.825);
+$phone-min-size: 576px;
+$tablet-min-size: 768px;
+$small-computer-min-size: 992px;
+$larger-computer-min-size: 1200px;
+$container_background: transparent;
+$text_color: #646464;
+$botton_font-size: 14px;
+$botton_background: transparent;
+$hover_color: #0066db;
+$h2_color: rgba(0, 0, 0, 0.822); 

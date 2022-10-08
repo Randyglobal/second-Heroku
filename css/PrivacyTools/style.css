@@ -1,0 +1,371 @@
+* {
+  padding: 0;
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  box-sizing: inherit;
+}
+
+@media (min-width: 1200px) {
+  * {
+    margin: auto 20px;
+  }
+  section .PrivacyTool {
+    width: 100%;
+    height: 90vh;
+  }
+  section .PrivacyTool .tool {
+    padding-top: 10%;
+    margin-left: 35%;
+  }
+  section .PrivacyTool .tool img {
+    width: 225px;
+    height: 130px;
+  }
+  section .PrivacyTool .toolAbout {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+  section .PrivacyTool .toolAbout .para {
+    font-size: 30px;
+    color: #202124;
+    padding-top: 3.5%;
+    line-height: 40px;
+  }
+  section .PrivacyTool .toolAbout .para span {
+    border-bottom: 1px solid #174ea6;
+    margin: 0 -20px;
+  }
+  section .PrivacyTool .toolAbout .para span a {
+    color: #174ea6;
+    text-decoration: none;
+  }
+  section .PrivacyTool .toolAbout .About {
+    width: 68%;
+    margin-left: 15.5%;
+    padding-top: 3.5%;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  section .PrivacyTool .toolAbout .About span {
+    margin: 0 -20px;
+  }
+  section .PrivacyTool .toolAbout .About span a:hover {
+    color: #174ea6;
+  }
+  section .container {
+    width: 92%;
+    margin: 4.5%;
+    display: flex;
+    margin-top: -50px;
+  }
+  section .container .Search, section .container .YouTube {
+    width: 62%;
+    height: 40vh;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 10px;
+    padding-left: 50px;
+  }
+  section .container .Search h3, section .container .YouTube h3 {
+    font-size: 25px;
+    color: #202124;
+    padding-top: 50px;
+  }
+  section .container .Search p, section .container .YouTube p {
+    line-height: 26px;
+    padding-top: 25px;
+    width: 85%;
+    margin-bottom: 30px;
+  }
+  section .container .Search a, section .container .YouTube a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+  section .container .Search a:hover, section .container .YouTube a:hover {
+    color: #174ea6;
+  }
+  section .container .lev {
+    margin-top: 25%;
+  }
+  section .content {
+    width: 92%;
+    margin: 4.5%;
+    display: flex;
+    margin-top: -15px;
+  }
+  section .content .Ad, section .content .Option {
+    width: 62%;
+    height: 40vh;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 10px;
+    padding-left: 50px;
+  }
+  section .content .Ad h3, section .content .Option h3 {
+    font-size: 25px;
+    color: #202124;
+    padding-top: 50px;
+  }
+  section .content .Ad p, section .content .Option p {
+    line-height: 26px;
+    padding-top: 25px;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  section .content .Ad a, section .content .Option a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #1d65d9;
+  }
+  section .content .Ad a:hover, section .content .Option a:hover {
+    color: #174ea6;
+  }
+}
+@media (max-width: 1000px) {
+  * {
+    margin: 0;
+  }
+  section .PrivacyTool {
+    width: 95%;
+    margin-left: 5%;
+  }
+  section .PrivacyTool .tool {
+    width: 50%;
+    margin-left: 30%;
+    align-items: center;
+  }
+  section .PrivacyTool .tool img {
+    width: 225px;
+    height: 130px;
+  }
+  section .PrivacyTool .toolAbout {
+    width: 90%;
+    text-align: center;
+    margin-left: 25px;
+  }
+  section .PrivacyTool .toolAbout .para {
+    width: 95%;
+    font-size: 23px;
+    color: #202124;
+    padding-top: 3.5%;
+    line-height: 40px;
+    margin-left: -20px;
+  }
+  section .PrivacyTool .toolAbout .para span {
+    border-bottom: 1px solid #174ea6;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  section .PrivacyTool .toolAbout .para span a {
+    color: #174ea6;
+    text-decoration: none;
+  }
+  section .PrivacyTool .toolAbout .About {
+    width: 100%;
+    margin-left: -5%;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+  }
+  section .PrivacyTool .toolAbout .About span {
+    margin-left: 3px;
+  }
+  section .PrivacyTool .toolAbout .About span a:hover {
+    color: #174ea6;
+  }
+  section .container {
+    width: 95%;
+    display: block;
+    margin-left: 10px;
+  }
+  section .container .Search, section .container .YouTube {
+    width: 98%;
+    height: 30vh;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  section .container .Search h3, section .container .YouTube h3 {
+    width: 98%;
+    font-size: 25px;
+    color: #202124;
+    padding-top: 10px;
+  }
+  section .container .Search p, section .container .YouTube p {
+    line-height: 26px;
+    padding-top: 25px;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  section .container .Search a, section .container .YouTube a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+  section .container .Search a:hover, section .container .YouTube a:hover {
+    color: #174ea6;
+  }
+  section .container .YouTube {
+    margin-bottom: 35px;
+  }
+  section .content {
+    width: 95%;
+    display: block;
+    margin-left: 10px;
+  }
+  section .content .Ad, section .content .Option {
+    width: 98%;
+    height: 32vh;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  section .content .Ad h3, section .content .Option h3 {
+    font-size: 25px;
+    color: #202124;
+    padding-top: 25px;
+    width: 90%;
+  }
+  section .content .Ad p, section .content .Option p {
+    line-height: 26px;
+    width: 93%;
+    margin-bottom: 30px;
+  }
+  section .content .Ad a, section .content .Option a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #1d65d9;
+  }
+  section .content .Ad a:hover, section .content .Option a:hover {
+    color: #174ea6;
+  }
+  section .content .Option {
+    height: 35vh;
+  }
+}
+@media (max-width: 576px) {
+  * {
+    margin: 0;
+  }
+  section .PrivacyTool {
+    width: 95%;
+    margin-left: 5%;
+  }
+  section .PrivacyTool .tool {
+    width: 50%;
+    margin-left: 30%;
+    align-items: center;
+  }
+  section .PrivacyTool .tool img {
+    width: 225px;
+    height: 130px;
+  }
+  section .PrivacyTool .toolAbout {
+    width: 90%;
+    text-align: center;
+    margin-left: 25px;
+  }
+  section .PrivacyTool .toolAbout .para {
+    width: 95%;
+    font-size: 23px;
+    color: #202124;
+    padding-top: 3.5%;
+    line-height: 40px;
+    margin-left: -20px;
+  }
+  section .PrivacyTool .toolAbout .para span {
+    border-bottom: 1px solid #174ea6;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  section .PrivacyTool .toolAbout .para span a {
+    color: #174ea6;
+    text-decoration: none;
+  }
+  section .PrivacyTool .toolAbout .About {
+    width: 100%;
+    margin-left: -5%;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+  }
+  section .PrivacyTool .toolAbout .About span {
+    margin-left: 3px;
+  }
+  section .PrivacyTool .toolAbout .About span a:hover {
+    color: #174ea6;
+  }
+  section .container {
+    width: 95%;
+    display: block;
+    margin-left: 10px;
+  }
+  section .container .Search, section .container .YouTube {
+    width: 98%;
+    height: 30vh;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  section .container .Search h3, section .container .YouTube h3 {
+    width: 98%;
+    font-size: 25px;
+    color: #202124;
+    padding-top: 10px;
+  }
+  section .container .Search p, section .container .YouTube p {
+    line-height: 26px;
+    padding-top: 25px;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  section .container .Search a, section .container .YouTube a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+  section .container .Search a:hover, section .container .YouTube a:hover {
+    color: #174ea6;
+  }
+  section .container .YouTube {
+    margin-bottom: 35px;
+  }
+  section .content {
+    width: 95%;
+    display: block;
+    margin-left: 10px;
+  }
+  section .content .Ad, section .content .Option {
+    width: 98%;
+    height: 32vh;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  section .content .Ad h3, section .content .Option h3 {
+    font-size: 25px;
+    color: #202124;
+    padding-top: 25px;
+    width: 90%;
+  }
+  section .content .Ad p, section .content .Option p {
+    line-height: 26px;
+    width: 93%;
+    margin-bottom: 30px;
+  }
+  section .content .Ad a, section .content .Option a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #1d65d9;
+  }
+  section .content .Ad a:hover, section .content .Option a:hover {
+    color: #174ea6;
+  }
+  section .content .Option {
+    height: 35vh;
+  }
+}/*# sourceMappingURL=style.css.map */

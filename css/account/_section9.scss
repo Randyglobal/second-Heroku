@@ -1,0 +1,54 @@
+.beforDiv{
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    margin-top: 35rem;
+
+    .middleDiv{
+        width: 50%;
+        height: 100px;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 340px;
+        text-align: center;
+
+        h1{
+            font-size: 55px;
+            font-weight: 500;
+            color: $text_color;
+        }
+ 
+        
+        .goTo{
+            padding: 15px;
+            border: none;
+            background: $h6_color;
+            border-radius: 5px;
+            margin-top: 20px;
+            
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &:hover{
+                background: rgb(1, 1, 69);
+            }
+        }
+
+        .creatAcc{
+            padding: 15px;
+            border: none;
+            background: white;
+            border-radius: 5px;
+            margin-top: 20px;
+            
+            a{
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+}

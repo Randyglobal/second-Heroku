@@ -1,0 +1,16 @@
+@import './reset';
+//  @import './variable';
+// @import './moblibeTools';
+
+@media (min-width: 1200px){
+ @import './variable';
+}
+// @media (max-width: 1250px){
+//     @import './variable';
+//    }
+   @media (max-width: 1000px){
+    @import './moblibeTools';
+   }
+@media (max-width: 576px){
+ @import './moblibeTools';
+}
